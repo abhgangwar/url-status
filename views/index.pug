@@ -1,0 +1,8 @@
+block content
+    h1= title
+    form(name="add-estimation", method="post", action="/check-url")
+        div.input
+            span.label Url
+            input(type="text", name="url")
+        div.actions
+            input(type="submit", value="Check url")
